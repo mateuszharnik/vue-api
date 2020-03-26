@@ -1,0 +1,15 @@
+<template>
+  <div
+    class="bg-red-lighter border-l-8 border-red rounded-tr-lg rounded-br-lg text-red-dark p-4"
+    role="alert"
+  >
+    <p class="font-bold">Holy smokes!</p>
+    <p>Something seriously bad happened.</p>
+  </div>
+</template>
+
+<script>
+export default {
+  name: 'alert',
+};
+</script>
